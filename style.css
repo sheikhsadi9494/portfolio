@@ -1,0 +1,171 @@
+* {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/* header section style  */
+
+/* navbar  */
+.r {
+    color: #FD6E0A;
+}
+
+.logo {
+    font-size: 45px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #474747;
+}
+
+/* banner  */
+.primary-button {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner-sub-title {
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin: -30px 0px 20px 0px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner-img {
+    width: 500px;
+}
+
+/* main section style  */
+main {
+    width: 1150px;
+    margin: 150px auto;
+}
+
+/* about me section  */
+.about-me-section {
+    background-color: #FFF8F3;
+    padding: 120px 150px;
+    text-align: center;
+}
+.about-me-title {
+    font-size: 40px;
+}
+.about-me-discription {
+    color: #757575;
+    font-size: 18px;
+}
+.aboutme-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+.aboutme-info {
+    /* border: 1px solid black; */
+}
+
+/* what i do section  */
+.whatIdo-section {
+    margin: 150px 0px;
+}
+.whatIdo-title {
+    font-size: 40px;
+    text-align: center;
+}
+.whatIdo-discription {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+.skill-container {
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.my-skill {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 20px 50px rgba(38, 38, 38, 0.2)
+}
+.skill-info {
+    color: #757575;
+}
+
+/* resume section  */
+
+.cols-title {
+    color: #474747;
+    font-size: 40px;
+}
+.cols-info-title {
+    font-size: 35px;
+}
+.cols-info-sub-title {
+    font-size: 28px;
+    color: #474747;
+    margin: 0;
+}
+
+.cols-info-discription {
+    color: #474747;
+    font-size: 20px;
+}
+
+.col-container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+.cols {
+
+}
+hr {
+    margin-top: 50px;
+}
+
+.button-container {
+    margin: auto;
+}
+
+/* footer  */
+footer {
+    background-color: #FFF8F3;
+}
